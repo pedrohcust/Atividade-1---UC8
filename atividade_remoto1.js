@@ -1,12 +1,13 @@
 // inicio cadastro por data do evento
-const DataDoEvento = ["1"]
+let DataAtual = new Date (2022,8,15)
 console.log("inicio")
 
 
 // campo de inserção da data do evento
-let dataevento = 1
-if (dataevento = 1) {console.log("ok, pode cadastrar")}
+let dataEvento = new Date (2022,9,10)
+if (dataEvento > DataAtual) {console.log("ok, pode cadastrar")}
 else {console.log("data do evento inválida")}
+
 
 // processamento para próxima etapa após inserção da data do evento
 console.log("processando")
